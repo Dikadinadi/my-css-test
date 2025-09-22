@@ -1,7 +1,24 @@
-body {
-  background: pink;
+/* Стили для кнопки WhatsApp */
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  z-index: 9999;
 }
-h1 {
-  color: red;
-  text-align: center;
+
+#whatsapp-button:hover {
+  background-color: #128c50;
 }
