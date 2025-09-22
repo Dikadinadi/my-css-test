@@ -6,5 +6,5 @@ document.body.appendChild(btn);
 
 // Добавляем ссылку на WhatsApp
 btn.addEventListener('click', () => {
-  window.open('https://wa.me/1234567890', '_blank'); // <- вставь свой номер
+  window.open('https://wa.me/+77005801573', '_blank'); // <- вставь свой номер
 });
